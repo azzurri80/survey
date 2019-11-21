@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Survey</title>
+  </head>
+  <body>
+        <h1>Back to school survey</h1>
+        <p>Please help us learn about our classmates!</p>
+      <div id="blanks">
+        <form>
+          <div class="form-control">
+            <label for="name">What is your name?</label>
+            <input id="name" class="form-control" type="text">
+          </div>
+
+          <div class="form-group">
+            <label for="born">Date of birth:</label>
+            <input id="born" class="form-control" type="date">
+          </div>
+
+          <h3>What is your favorite type of food?</h3>
+          <select class="form-control" id="food">
+            <option>Italian</option>
+            <option>Mexican</option>
+            <option>Greek</option>
+            <option>Ethiopian</option>
+            <option>Thai</option>
+            <option>Korean</option>
+            <option>Japanese</option>
+          </select>
+
+          <h3>Favorite music genre.</h3>
+          <div class="radio">
+            <label>
+              <input type="radio" name="genre" value="Classic Rock">
+              Classic Rock
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="genre" value="R&B">
+              R&B
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="genre" value="Alternative">
+              Alternative
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="genre" value="Classical">
+              Classical
+            </label>
+          </div>
+
+          <div class="form-group">
+            <label for="color">What is your favorite color?</label>
+            <input id="color" class="form-control" type="color">
+          </div>
+
+          <button type="submit" class="btn">Enter your responses</button>
+        </form>
+      </div>
+  </body>
+</html>
